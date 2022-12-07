@@ -33,5 +33,16 @@ const personalMovieDB = {
   privat: false,
 };
 
+console.log("count is ", personalMovieDB.count);
+
 let lastFilmYouSee = prompt("Один из последних просмотренных фильмов?");
 let yourRaitingToThisFilm = prompt("На сколько оцените его?");
+
+const movies = {
+  lastFilm: lastFilmYouSee,
+  raiting: yourRaitingToThisFilm,
+};
+
+console.log("lastFilm :", movies.lastFilm);
+
+console.log(" raiting:", movies.raiting);

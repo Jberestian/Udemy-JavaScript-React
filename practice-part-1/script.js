@@ -35,12 +35,9 @@ const personalMovieDB = {
 
 console.log("count is ", personalMovieDB.count);
 
-const a = prompt("Один из последних просмотренных фильмов?", ""),
-  b = prompt("На сколько оцените его?", ""),
-  c = prompt("Один из последних просмотренных фильмов?", ""),
-  d = prompt("На сколько оцените его?", "");
+let lastFilmYouSee = prompt("Один из последних просмотренных фильмов?");
+let yourRaitingToThisFilm = +prompt("На сколько оцените его?");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+personalMovieDB.movies[lastFilmYouSee] = yourRaitingToThisFilm;
 
 console.log(personalMovieDB);

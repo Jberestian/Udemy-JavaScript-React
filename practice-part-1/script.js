@@ -41,3 +41,15 @@ let yourRaitingToThisFilm = +prompt("На сколько оцените его?"
 personalMovieDB.movies[lastFilmYouSee] = yourRaitingToThisFilm;
 
 console.log(personalMovieDB);
+
+// let result = "";
+// let lenght = 10;
+
+// for (let i = 1; i < lenght; i++) {
+//   for (let j = 0; j < i; j++) {
+//     result += "|";
+//   }
+//   result += "\n";
+// }
+
+// console.log(result);

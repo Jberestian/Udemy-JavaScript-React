@@ -100,29 +100,41 @@
 //   }
 // }
 
-function fourTask() {
-  let i = 2;
-  while (i <= 16) {
-    if (i % 2 === 0) {
-      i++;
-      continue;
-    } else {
-      console.log(i);
-    }
-    i++;
-  }
+// function fourTask() {
+//   let i = 2;
+//   while (i <= 16) {
+//     if (i % 2 === 0) {
+//       i++;
+//       continue;
+//     } else {
+//       console.log(i);
+//     }
+//     i++;
+//   }
+// }
+// fourTask();
+
+// function fifthTask() {
+//   const arrayOfNumbers = [];
+
+//   for (let i = 5; i < 11; i++) {
+//     arrayOfNumbers[i - 5] = i;
+//   }
+
+//   console.log(arrayOfNumbers);
+//   return arrayOfNumbers;
+// }
+
+// fifthTask();
+
+// Место для первой задачи
+function firstTask() {
+  // Значения массива менять нельзя, тут он проверяется автоматически именно на эти значения
+  const arr = [3, 5, 8, 16, 20, 23, 50];
+  const result = [];
+
+  // Пишем решение вот тут
+
+  // Не трогаем
+  return result;
 }
-fourTask();
-
-function fifthTask() {
-  const arrayOfNumbers = [];
-
-  for (let i = 5; i < 11; i++) {
-    arrayOfNumbers[i - 5] = i;
-  }
-
-  console.log(arrayOfNumbers);
-  return arrayOfNumbers;
-}
-
-fifthTask();
